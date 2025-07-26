@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="container">
+        <div class="logo">
+            <div class="space"></div>
+            <img src="odin-lined.png"><span>ODIN</span>
+        </div>
+        <form class="form" action="#" method="post">
+            <p class="para">This is not a real online service! you know you need something like this in your life to help you realize your deepest dreams.</p>
+            <p class="para">Sign up now to get started.</p>
+            <p class="para">You know you want to.</p>
+            <fieldset>
+                <legend class="para">Let's do this!</legend>
+                <ul>
+                    <li>
+                        <label for="firstName">FIRST NAME</label>
+                        <input type="text" id="firstName">
+                    </li>
+                    <li>
+                        <label for="lastName">LAST NAME</label>
+                        <input type="text" id="lastName">
+                    </li>
+                    <li>
+                        <label for="email">EMAIL</label>
+                        <input type="email" id="email">
+                    </li>
+                    <li>
+                        <label for="phoneNumber">PHONE NUMBER</label>
+                        <input type="tel" id="phoneNumber" pattern="[0-9]{10}">
+                    </li>
+                    <li>
+                        <label for="password">PASSWORD</label>
+                        <input type="password" id="password" required>
+                    </li>
+                    <li>
+                        <label for="confirmPassword">CONFIRM PASSWORD</label>
+                        <input type="password" id="confirmPassword" required>
+                    </li>
+                </ul>
+            </fieldset>
+            <button type="submit">Create Account</button>
+            <p>Already have an account? <a href="#">Log in</a></p>
+        </form>
+    </div>
+</body>
+</html>
